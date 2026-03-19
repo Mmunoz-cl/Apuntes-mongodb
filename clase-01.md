@@ -10,7 +10,7 @@ mongosh
 show dbs
 ```
 
-## Cambiar o crear base de datos
+## Cambiar a una base de datos o crearla si no existe
 
 ```
 use nombrebase
@@ -22,7 +22,7 @@ use nombrebase
 db.createCollection("nombredecoleccion")
 ```
 
-## Mostrar coleccion
+## Mostrar colecciones
 
 ```
 show collections
@@ -35,7 +35,7 @@ db.insertOne({clave : "valor"})
 ```
 
 ```js
-db.inserMany([{clave1: "valor"}, {clave2: "valor"}])
+db.insertMany([{clave1: "valor"}, {clave2: "valor"}])
 ```
 
 ## Borrar coleccion
