@@ -35,5 +35,15 @@ db.insertOne({clave : "valor"})
 ```
 
 ```js
-db.inserMany({clave1: "valor"}, {clave2: "valor"})
+db.inserMany([{clave1: "valor"}, {clave2: "valor"}])
+```
+
+## Borrar coleccion
+```js
+db.nombredelacoleccion.drop()
+```
+
+## Borrar Base
+```js
+db.dropDatabase()
 ```
