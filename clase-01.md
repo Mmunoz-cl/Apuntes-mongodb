@@ -25,7 +25,7 @@ db.createCollection("nombredecoleccion")
 ## Mostrar coleccion
 
 ```
-show collection
+show collections
 ```
 
 ## Insertar Registro
