@@ -12,11 +12,11 @@ db.Productos.distinct("precio")
 ## Busqueda de textos
 
 ```js
-db.Productos.find({campo: /.*busqueda.*/ }) //que contenga
+db.Productos.find({campo: /busqueda/ }) //que contenga
 
-db.Productos.find({campo: /.*busqueda./ }) //que comience con
+db.Productos.find({campo: /^busqueda/ }) //que comience con
 
-db.Productos.find({campo: /.busqueda.*/ }) //que termine con 
+db.Productos.find({campo: /busqueda$/ }) //que termine con 
 ```
 
 ## Eliminacion de documentos
